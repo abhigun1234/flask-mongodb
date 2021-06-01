@@ -7,8 +7,8 @@ def get_db():
 
 
 def add_products(db):
-    print("data db helper",data)
-    db.product.insert_one(data)
+
+    db.product.insert_one({"name":"tv","price":"1233"})
 
 
 def get_product(db):
